@@ -8,7 +8,7 @@
 >
 >Al servicio se le ha llamado **wsMonitorizaInternet** pero desde el código fuente puede cambiarlo a uno de su gusto, así como el equipo al que hacer ping en lugar de 8.8.8.8 y el tiempo de espera entre pings en vez de 30 segundos.
 >
->Una mejora sería poder suministrar estos parámetros (equipo remoto e intervalo entre pings) o bien en el momento de la instalación del servicio como parámetros al comando o bien leyendo los mismos desde un fichero de configuración.
+>Una mejora sería suministrar estos parámetros (equipo remoto e intervalo entre pings) o bien en el momento de la instalación del servicio como parámetros al comando o bien leyendo los mismos desde un fichero de configuración.
 
 ### Recompilación e instalación del servicio
 

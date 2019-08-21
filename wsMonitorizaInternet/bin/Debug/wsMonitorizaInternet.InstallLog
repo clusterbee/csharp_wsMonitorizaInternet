@@ -482,3 +482,16 @@ Affected parameters are:
    logfile = C:\Users\imero\source\repos\wsMonitorizaInternet\wsMonitorizaInternet\bin\Debug\wsMonitorizaInternet.InstallLog
    assemblypath = C:\Users\imero\source\repos\wsMonitorizaInternet\wsMonitorizaInternet\bin\Debug\wsMonitorizaInternet.exe
 Restoring event log to previous state for source wsMonitorizaInternet.
+Installing assembly 'C:\Users\imero\source\repos\csharp_wsMonitorizaInternet\wsMonitorizaInternet\bin\Debug\wsMonitorizaInternet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\imero\source\repos\csharp_wsMonitorizaInternet\wsMonitorizaInternet\bin\Debug\wsMonitorizaInternet.InstallLog
+   assemblypath = C:\Users\imero\source\repos\csharp_wsMonitorizaInternet\wsMonitorizaInternet\bin\Debug\wsMonitorizaInternet.exe
+Installing service wsMonitorizaInternet...
+Service wsMonitorizaInternet has been successfully installed.
+Creating EventLog source wsMonitorizaInternet in log Application...
+Committing assembly 'C:\Users\imero\source\repos\csharp_wsMonitorizaInternet\wsMonitorizaInternet\bin\Debug\wsMonitorizaInternet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\imero\source\repos\csharp_wsMonitorizaInternet\wsMonitorizaInternet\bin\Debug\wsMonitorizaInternet.InstallLog
+   assemblypath = C:\Users\imero\source\repos\csharp_wsMonitorizaInternet\wsMonitorizaInternet\bin\Debug\wsMonitorizaInternet.exe
