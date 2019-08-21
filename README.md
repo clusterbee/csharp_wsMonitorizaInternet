@@ -23,7 +23,8 @@ Pasos para recompilar en Visual Studio e instalar el servicio de nuevo:
 
 # tenga en cuenta que...
 **Los pasos 1 y 5 requieren acceso a la consola como administrador**
-	(Inicio > Visual Studio 2019 > Developer Command Prompt)	*Ejecutar como "admin" desde el menu contextual.*
+
+>(Inicio > Visual Studio 2019 > Developer Command Prompt)	*Ejecutar como "admin" desde el menu contextual.*
 
 **Los pasos 2 y 4 requieren estar en la ruta del Servicio compilado o indicar bien indica la ruta a ejecutable.**
   
@@ -34,8 +35,6 @@ Pasos para recompilar en Visual Studio e instalar el servicio de nuevo:
 
 # Herramientas
 
-	>services.msc		*Listado de servicios*
-	>
-	>eventvwr.msc		*Consulta de eventos/logs*
-	>
-  
+	services.msc		*Listado de servicios*
+	
+	eventvwr.msc		*Consulta de eventos/logs* 
