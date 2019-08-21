@@ -1,4 +1,4 @@
-# csharp_wsMonitorizaInternet
+ .# csharp_wsMonitorizaInternet
 
 **Servicio Windows en C# para la monitorización de la conexión a internet.**
 
@@ -14,7 +14,7 @@
 
 Pasos para recompilar en Visual Studio e instalar el servicio de nuevo:
 
-1. "detener el servicio" . . . . . . . . . . . . . . . . . . . . **net stop wsMonitorizaInternet**
+1. "detener el servicio" . . . . . . . . . . . . . . . . . . . **net stop wsMonitorizaInternet**
 2. "desinstalar el servicio" . . . . . . . . . . . . . . . . **installutil /u wsMonitorizaInternet.exe**
 3. *RECOMPILAR EL PROYECTO/ SOLUCION en VisualStudio*
 4. "instalar el servicio" . . . . . . . . . . . . . . . . . . . **installutil wsMonitorizaInternet.exe**
@@ -38,5 +38,5 @@ Pasos para recompilar en Visual Studio e instalar el servicio de nuevo:
 
 ## Herramientas
 
-* **services.msc** . . . . . . . . . . *Listado de servicios*
+* **services.msc** . . . . . . . . . . . *Listado de servicios*
 * **eventvwr.msc** . . . . . . . . . . *Consulta de eventos/logs*
