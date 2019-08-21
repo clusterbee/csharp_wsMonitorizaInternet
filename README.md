@@ -1,8 +1,8 @@
-# csharp_wsMonitorizaInternet
+## csharp_wsMonitorizaInternet
 
 **Servicio Windows en C# para la monitorización de la conexión a internet.**
 
-## Funcionamiento del servicio
+# Funcionamiento del servicio
 
 >Este servicio una vez instalado en el equipo Windows va realizando 'pings' al servidor de DNS de Google 8.8.8.8 cada 30 segundos y va registrando en el log de eventos del sistema aquellos pings que no han obtenido una respuesta satisfactoria.
 >
@@ -10,7 +10,7 @@
 >
 >Una mejora sería poder suministrar estos parámetros (equipo remoto e intervalo entre pings) o bien en el momento de la instalación del servicio como parámetros al comando o bien leyendo los mismos desde un fichero de configuración.
 
-## Recompilación e instalación del servicio
+# Recompilación e instalación del servicio
 
 Pasos para recompilar en Visual Studio e instalar el servicio de nuevo:
 
@@ -20,7 +20,7 @@ Pasos para recompilar en Visual Studio e instalar el servicio de nuevo:
 4. "instalar el servicio" ................... **installutil wsMonitorizaInternet.exe**
 5. "iniciar el servicio" .................... **net start wsMonitorizaInternet**
 
-# tenga en cuenta que...
+## tenga en cuenta que...
 **Los pasos 1 y 5 requieren acceso a la consola como administrador**
 
  >Inicio > Visual Studio 2019 > **Developer Command Prompt**
@@ -34,7 +34,7 @@ Pasos para recompilar en Visual Studio e instalar el servicio de nuevo:
     C:\>cd \Users\miusuario\source\repos\csharp_wsMonitorizaInternet\wsMonitorizaInternet\bin\Debug>
     C:\>installutil wsMonitorizaInternet.exe
 
-# Herramientas
+## Herramientas
 
 * **services.msc** .......... *Listado de servicios*
 * **eventvwr.msc** .......... *Consulta de eventos/logs*
