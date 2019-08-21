@@ -1,8 +1,8 @@
-## csharp_wsMonitorizaInternet
+# csharp_wsMonitorizaInternet
 
 **Servicio Windows en C# para la monitorización de la conexión a internet.**
 
-# Funcionamiento del servicio
+### Funcionamiento del servicio
 
 >Este servicio una vez instalado en el equipo Windows va realizando 'pings' al servidor de DNS de Google 8.8.8.8 cada 30 segundos y va registrando en el log de eventos del sistema aquellos pings que no han obtenido una respuesta satisfactoria.
 >
@@ -10,22 +10,24 @@
 >
 >Una mejora sería poder suministrar estos parámetros (equipo remoto e intervalo entre pings) o bien en el momento de la instalación del servicio como parámetros al comando o bien leyendo los mismos desde un fichero de configuración.
 
-# Recompilación e instalación del servicio
+### Recompilación e instalación del servicio
 
 Pasos para recompilar en Visual Studio e instalar el servicio de nuevo:
 
-1. "detener el servicio" .................... **net stop wsMonitorizaInternet**
-2. "desinstalar el servicio" ................ **installutil /u wsMonitorizaInternet.exe**
+1. "detener el servicio" . . . . . . . . . . . . . . . . . . . . **net stop wsMonitorizaInternet**
+2. "desinstalar el servicio" . . . . . . . . . . . . . . . . **installutil /u wsMonitorizaInternet.exe**
 3. *RECOMPILAR EL PROYECTO/ SOLUCION en VisualStudio*
-4. "instalar el servicio" ................... **installutil wsMonitorizaInternet.exe**
-5. "iniciar el servicio" .................... **net start wsMonitorizaInternet**
-
-## tenga en cuenta que...
+4. "instalar el servicio" . . . . . . . . . . . . . . . . . . . **installutil wsMonitorizaInternet.exe**
+5. "iniciar el servicio" . . . . . . . . . . . . . . . . . . . . **net start wsMonitorizaInternet**
+----
+#### y tenga en cuenta que . . .
+----
 **Los pasos 1 y 5 requieren acceso a la consola como administrador**
 
- >Inicio > Visual Studio 2019 > **Developer Command Prompt**
- 
-  *Ejecutar como "admin" desde el menu contextual.*
+    Ejecute como "admin" el siguiente Command Prompt
+>Inicio > Visual Studio 2019 > **Developer Command Prompt**
+
+----
 
 **Los pasos 2 y 4 requieren estar en la ruta del Servicio compilado o indicar bien indica la ruta a ejecutable.**
   
@@ -36,5 +38,5 @@ Pasos para recompilar en Visual Studio e instalar el servicio de nuevo:
 
 ## Herramientas
 
-* **services.msc** .......... *Listado de servicios*
-* **eventvwr.msc** .......... *Consulta de eventos/logs*
+* **services.msc** . . . . . . . . . . *Listado de servicios*
+* **eventvwr.msc** . . . . . . . . . . *Consulta de eventos/logs*
