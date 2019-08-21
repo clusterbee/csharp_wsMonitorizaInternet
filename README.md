@@ -35,5 +35,7 @@ Los pasos 1 y 5 requieren acceso a la consola como administrador
 # Herramientas
 
 >services.msc		*Listado de servicios*
+>
 >eventvwr.msc		*Consulta de eventos/logs*
+>
   
