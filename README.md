@@ -16,11 +16,11 @@ Pasos para recompilar en Visual Studio e instalar el servicio de nuevo:
 4. "instalar el servicio" . . . . . . . . . . . . . . . . . . . **installutil wsMonitorizaInternet.exe**
 5. "iniciar el servicio" . . . . . . . . . . . . . . . . . . . . **net start wsMonitorizaInternet**
 
-#### y tenga en cuenta que . . .
+#### A tener en cuenta:
 
 **1º Los pasos 1 y 5 requieren acceso a la consola como administrador**
 
-    Ejecute como "admin" el siguiente Command Prompt
+    Ejecutar como "admin" el siguiente Command Prompt
 >Inicio > Visual Studio 2019 > **Developer Command Prompt**
 
 **2º Los pasos 2 y 4 requieren estar en la ruta del Servicio compilado o bien indicar la ruta al ejecutable.**
