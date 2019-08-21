@@ -13,13 +13,13 @@
 ### Recompilación e instalación del servicio
 
 Pasos para recompilar en Visual Studio e instalar el servicio de nuevo:
-
+```sh
 1. "detener el servicio" . . . . . . . . . . . . . . . . . . . **net stop wsMonitorizaInternet**
 2. "desinstalar el servicio" . . . . . . . . . . . . . . . . **installutil /u wsMonitorizaInternet.exe**
 3. *RECOMPILAR EL PROYECTO/ SOLUCION en VisualStudio*
 4. "instalar el servicio" . . . . . . . . . . . . . . . . . . . **installutil wsMonitorizaInternet.exe**
 5. "iniciar el servicio" . . . . . . . . . . . . . . . . . . . . **net start wsMonitorizaInternet**
-
+```
 #### y tenga en cuenta que . . .
 
 **1º Los pasos 1 y 5 requieren acceso a la consola como administrador**
