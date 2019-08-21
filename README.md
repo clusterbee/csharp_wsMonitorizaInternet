@@ -27,7 +27,7 @@ Pasos para recompilar en Visual Studio e instalar el servicio de nuevo:
     Ejecute como "admin" el siguiente Command Prompt
 >Inicio > Visual Studio 2019 > **Developer Command Prompt**
 
-**2º Los pasos 2 y 4 requieren estar en la ruta del Servicio compilado o indicar bien indica la ruta a ejecutable.**
+**2º Los pasos 2 y 4 requieren estar en la ruta del Servicio compilado o bien indicar la ruta al ejecutable.**
   
     ej.
     ----
